@@ -1,7 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-}
+const { i18n } = require("./next-i18next.config");
+const withVideos = require("next-videos");
 
-module.exports = nextConfig
+const nextConfig = {
+	reactStrictMode: true,
+	swcMinify: true,
+	i18n,
+	withVideos,
+};
+
+module.exports = nextConfig;

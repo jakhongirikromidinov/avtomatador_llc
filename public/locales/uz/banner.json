@@ -1,0 +1,27 @@
+{
+	"subtitle": "Ishlatilgan yoki yaroqsiz avto-katalizatorlarni yuqori narxlarda sotib olish va qayta ishlashga ixtisoslashgan kompaniya.",
+
+	"phone_button": "Biz bilan bog'laning",
+	"prices_button": "Narxlar",
+
+	"compounds": {
+		"paladdiy": {
+			"number": "46",
+			"key": "PD",
+			"name": "Paladdiy",
+			"price": "1 169 333 so'm (kg)"
+		},
+		"patino": {
+			"number": "78",
+			"key": "PT",
+			"name": "Patino",
+			"price": "1 170 010 so'm (kg)"
+		},
+		"rodiy": {
+			"number": "45",
+			"key": "RH",
+			"name": "Rodiy",
+			"price": "4 465 740 so'm (kg)"
+		}
+	}
+}
