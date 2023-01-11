@@ -25,7 +25,6 @@ const Banner = () => {
 	const { t: translate } = useTranslation("banner");
 	return (
 		<StyledBanner>
-			{console.log(result)}
 			<video autoPlay loop muted src={"/images/banner_bg_video.mp4"} />
 			<InnerContainer>
 				<PhoneNumbersList>
